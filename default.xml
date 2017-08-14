@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <default revision="master"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <!-- Minetest Game -->
+  <project path="." name="minetest/minetest_game" />
+
+  <!-- Mods to be added:
+
+  ambience
+  biome_lib
+  connected_chests
+  craftguide
+  ethereal
+  farming
+  hud_hunger
+  minetest-3d_armor
+  mobs_animal
+  mobs_monster
+  mobs_npc
+  moreblocks
+  moreores
+  moresnow
+  moretrees
+  plantlife_modpack
+  round_trunks
+  trash_can
+  workbench -->
+
+
