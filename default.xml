@@ -10,32 +10,29 @@
            sync-j="4" />
 
   <!-- Minetest Game -->
-  <project path="." name="minetest/minetest_game" />
+  <project path="." name="Anth0rx/minetest_game" />
 
-  <!-- Mods to be added:
+  <!-- Mods:-->
 
-  ambience
-  biome_lib
-  connected_chests
-  craftguide
-  ethereal
-  farming
-  hud_hunger
-  minetest-3d_armor
-  mobs_animal
-  mobs_monster
-  mobs_npc
-  moreblocks
-  moreores
-  moresnow
-  moretrees
-  plantlife_modpack
-  round_trunks
-  trash_can
-  workbench -->
-
-  <copyfile src="game.conf" dest="game.conf" />
-  <copyfile src="minetest.conf" dest="minetest.conf" />
+  <project path="mods/ambience" name="tenplus1/ambience" />
+  <project path="mods/biome_lib" name="minetest-mods/biome_lib" />
+  <project path="mods/connected_chests" name="HybridDog/connected_chests" />
+  <project path="mods/craftguide" name="minetest-mods/craftguide" />
+  <project path="mods/ethereal" name="tenplus1/ethereal" />
+  <project path="mods/farming" name="tenplus1/farming" />
+  <project path="mods/hud_hunger" name="BlockMen/hud_hunger" />
+  <project path="mods/3d-armor" name="stujones11/minetest-3d_armor" />
+  <project path="mods/mobs_redo" name="tenplus1/mobs_redo" />
+  <project path="mods/mobs_animal" name="tenplus1/mobs_animal" />
+  <project path="mods/mobs_npc" name="tenplus1/mobs_npc" />
+  <project path="mods/mobs_monster" name="tenplus1/mobs_monster" />
+  <project path="mods/moreblocks" name="minetest-mods/moreblocks" />
+  <project path="mods/moreores" name="minetest-mods/moreores" />
+  <project path="mods/moretrees" name="minetest-mods/moretrees" />
+  <project path="mods/moresnow" name="Sokomine/moresnow" />
+  <project path="mods/plantlife_modpack" name="minetest-mods/plantlife_modpack" />
+  <project path="mods/round_trunks" name="minetest-mods/round_trunks" />
+  <project path="mods/workbench" name="minetest-mods/workbench" />
 
 </manifest>
 
