@@ -10,7 +10,7 @@
            sync-j="4" />
 
   <!-- Minetest Game -->
-  <project path="." name="Anth0rx/minetest_game" />
+  <project path="." name="Anth0rx/Mynetest_base" />
 
   <!-- Mods:-->
 
